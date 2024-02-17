@@ -18,14 +18,8 @@ let horizontalMoveInterval = 0.1; // Adjust for desired speed of left/right move
 
 let startTime;
 let levelSpeedFactor = 1; // Starts at normal speed
-let reggaeMusic;
-
-function preload() {
-  reggaeMusic = loadSound("poco.mp4");
-}
 
 function setup() {
-  reggaeMusic.loop(0, 1, 1, 0, reggaeMusic.duration());
   createCanvas(300, 600);
   frameRate(60); // Set a consistent frame rate
   noStroke();
