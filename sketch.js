@@ -21,7 +21,7 @@ let levelSpeedFactor = 1; // Starts at normal speed
 let reggaeMusic;
 
 function preload() {
-  reggaeMusic = loadSound("final shoppie.mp3");
+  reggaeMusic = loadSound("final shoppie.mp4");
 }
 
 function setup() {
