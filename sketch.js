@@ -404,8 +404,12 @@ function lose() {
 function resetGame() {
   initBoard(); // Reinitialize the game board
   score = 0; // Reset the score to 0
+   fallTimer = 0;
+   fallInterval = 0.5; // Time in seconds between each automatic move down
+  levelSpeedFactor = 1; // Starts at normal speed
   newBlock(); // Start a new block
   loop(); // Restart the draw loop if previously stopped
+  
 }
 
 function updateDifficulty() {
